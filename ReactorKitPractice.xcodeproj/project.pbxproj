@@ -25,6 +25,7 @@
 		C2F5D67127D380A700FC9726 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67027D380A700FC9726 /* Lotto.swift */; };
 		C2F5D67427D381CE00FC9726 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67327D381CE00FC9726 /* APIService.swift */; };
 		C2F5D67627D383F500FC9726 /* LottoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67527D383F500FC9726 /* LottoView.swift */; };
+		C2F5D67827D389C100FC9726 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67727D389C100FC9726 /* LottoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		C2F5D67027D380A700FC9726 /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
 		C2F5D67327D381CE00FC9726 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		C2F5D67527D383F500FC9726 /* LottoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoView.swift; sourceTree = "<group>"; };
+		C2F5D67727D389C100FC9726 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				C2D4A90E27D232FF00B6FE69 /* ViewController.swift */,
 				C2F5D67527D383F500FC9726 /* LottoView.swift */,
+				C2F5D67727D389C100FC9726 /* LottoViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F5D67127D380A700FC9726 /* Lotto.swift in Sources */,
+				C2F5D67827D389C100FC9726 /* LottoViewModel.swift in Sources */,
 				C2F5D67427D381CE00FC9726 /* APIService.swift in Sources */,
 				C2D4A90F27D232FF00B6FE69 /* ViewController.swift in Sources */,
 				C2D4A90B27D232FF00B6FE69 /* AppDelegate.swift in Sources */,

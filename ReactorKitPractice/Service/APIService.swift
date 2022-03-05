@@ -10,9 +10,9 @@ import Alamofire
 import RxSwift
 
 final class APIService {
-    let shared = APIService()
+    static let shared = APIService()
     
-    func fetchLottoData(drwNo: Int) -> Single<Lotto> {
+    func fetchLottoData(drwNo: Int) -> Single<Lotto?> {
         return Single.create { single in
             
             let urlString = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=\(drwNo)"

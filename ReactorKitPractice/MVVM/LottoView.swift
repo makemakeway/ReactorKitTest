@@ -19,40 +19,48 @@ final class LottoView: UIView {
     
     let firstLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let secondLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let thirdLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let fourthLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let fifthLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let sixthLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .magenta
     }
     
     let bonusLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.backgroundColor = .orange
     }
     
     let refreshButton = UIButton().then {
-        $0.backgroundColor = .blue
+        $0.backgroundColor = .systemBlue
         $0.setTitle("다른 회차 보기", for: .normal)
         $0.setTitleColor(.white, for: .normal)
     }
     
     let episodeLabel = UILabel().then {
         $0.textAlignment = .center
+        $0.textColor = .purple
     }
     
     func setup() {
@@ -72,6 +80,7 @@ final class LottoView: UIView {
             make.leading.equalToSuperview().offset(16)
             make.trailing.equalToSuperview().offset(-16)
             make.top.equalTo(self.safeAreaLayoutGuide).offset(30)
+            make.height.equalTo(44)
         }
         
         episodeLabel.snp.makeConstraints { make in
