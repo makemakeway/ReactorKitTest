@@ -26,6 +26,8 @@
 		C2F5D67427D381CE00FC9726 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67327D381CE00FC9726 /* APIService.swift */; };
 		C2F5D67627D383F500FC9726 /* LottoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67527D383F500FC9726 /* LottoView.swift */; };
 		C2F5D67827D389C100FC9726 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67727D389C100FC9726 /* LottoViewModel.swift */; };
+		C2F5D67A27D3945200FC9726 /* ReactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67927D3945200FC9726 /* ReactorViewController.swift */; };
+		C2F5D67C27D3956B00FC9726 /* LottoViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D67B27D3956B00FC9726 /* LottoViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		C2F5D67327D381CE00FC9726 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		C2F5D67527D383F500FC9726 /* LottoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoView.swift; sourceTree = "<group>"; };
 		C2F5D67727D389C100FC9726 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		C2F5D67927D3945200FC9726 /* ReactorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorViewController.swift; sourceTree = "<group>"; };
+		C2F5D67B27D3956B00FC9726 /* LottoViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 		C2F5D66E27D3805300FC9726 /* ReactorKit */ = {
 			isa = PBXGroup;
 			children = (
+				C2F5D67927D3945200FC9726 /* ReactorViewController.swift */,
+				C2F5D67B27D3956B00FC9726 /* LottoViewReactor.swift */,
 			);
 			path = ReactorKit;
 			sourceTree = "<group>";
@@ -340,7 +346,9 @@
 				C2F5D67827D389C100FC9726 /* LottoViewModel.swift in Sources */,
 				C2F5D67427D381CE00FC9726 /* APIService.swift in Sources */,
 				C2D4A90F27D232FF00B6FE69 /* ViewController.swift in Sources */,
+				C2F5D67C27D3956B00FC9726 /* LottoViewReactor.swift in Sources */,
 				C2D4A90B27D232FF00B6FE69 /* AppDelegate.swift in Sources */,
+				C2F5D67A27D3945200FC9726 /* ReactorViewController.swift in Sources */,
 				C2D4A90D27D232FF00B6FE69 /* SceneDelegate.swift in Sources */,
 				C2F5D67627D383F500FC9726 /* LottoView.swift in Sources */,
 			);
