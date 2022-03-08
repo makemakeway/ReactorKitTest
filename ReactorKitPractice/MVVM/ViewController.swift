@@ -38,7 +38,6 @@ final class ViewController: UIViewController {
             owner.mainView.episodeLabel.text = "\(lotto.drwNo)회차"
         }
         .disposed(by: disposeBag)
-
     }
     
     

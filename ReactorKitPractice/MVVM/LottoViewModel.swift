@@ -20,7 +20,6 @@ final class LottoViewModel {
     }
     
     func transform(input: Input) -> Output {
-        
         let lottoData = input.refreshButtonClicked
             .flatMap { APIService.shared.fetchLottoData(drwNo: Int.random(in: 1...1000)) }
             .debug("로또")
