@@ -10,17 +10,19 @@ import ReactorKit
 import RxSwift
 
 final class LottoViewReactor: Reactor {
+    var initialState: State = State(lottoInfo: nil)
+    
     
     enum Action {
-        
-    }
-    
-    enum State {
-        
+        case reload
     }
     
     enum Mutation {
-        
+        case fetchLotto
+    }
+    
+    enum State {
+        var lottoInfo: Lotto?
     }
     
 }
