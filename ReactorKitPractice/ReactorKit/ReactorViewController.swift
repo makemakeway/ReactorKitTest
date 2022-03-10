@@ -12,7 +12,7 @@ import ReactorKit
 final class ReactorViewController: UIViewController, View {
     
     //MARK: Properties
-    private var disposeBag = DisposeBag()
+    var disposeBag = DisposeBag()
     
     
     //MARK: UI
@@ -21,7 +21,7 @@ final class ReactorViewController: UIViewController, View {
     
     //MARK: Method
     
-    func bind(reactor: Reactor) {
+    func bind(reactor: LottoViewReactor) {
         
     }
     

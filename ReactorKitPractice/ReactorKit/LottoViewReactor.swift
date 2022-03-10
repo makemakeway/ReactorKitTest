@@ -10,7 +10,7 @@ import ReactorKit
 import RxSwift
 
 final class LottoViewReactor: Reactor {
-    var initialState: State = State(lottoInfo: nil)
+    var initialState: State = State()
     
     
     enum Action {
@@ -21,8 +21,7 @@ final class LottoViewReactor: Reactor {
         case fetchLotto
     }
     
-    enum State {
+    struct State {
         var lottoInfo: Lotto?
     }
-    
 }
