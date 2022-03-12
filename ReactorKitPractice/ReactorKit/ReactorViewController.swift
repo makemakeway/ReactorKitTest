@@ -25,6 +25,7 @@ final class ReactorViewController: UIViewController, View {
         print(#function)
         
         mainView.refreshButton.rx.tap
+            .debug("버튼 눌림")
             .map { Reactor.Action.reload }
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
@@ -47,8 +48,9 @@ final class ReactorViewController: UIViewController, View {
     
     //MARK: LifeCycle
     init(reactor: LottoViewReactor) {
-        super.init(nibName: nil, bundle: nil)
+        print("Init")
         self.reactor = reactor
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
@@ -61,5 +63,6 @@ final class ReactorViewController: UIViewController, View {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        bind(reactor: reactor)
     }
 }
