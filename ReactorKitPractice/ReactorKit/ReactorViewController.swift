@@ -22,10 +22,7 @@ final class ReactorViewController: UIViewController, View {
     //MARK: Method
     
     func bind(reactor: LottoViewReactor) {
-        print(#function)
-        
         mainView.refreshButton.rx.tap
-            .debug("버튼 눌림")
             .map { Reactor.Action.reload }
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
